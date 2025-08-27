@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python Basic, if-else and Flow Control Assignment", "Python Basic, if-else and Flow Control Assignment\Python Basic, if-else and Flow Control Assignment.pyproj", "{42563B1C-258A-4ACA-833A-87BB9C8619C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42563B1C-258A-4ACA-833A-87BB9C8619C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42563B1C-258A-4ACA-833A-87BB9C8619C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24175C28-5ADC-443E-BEEE-58228C41D25E}
+	EndGlobalSection
+EndGlobal
