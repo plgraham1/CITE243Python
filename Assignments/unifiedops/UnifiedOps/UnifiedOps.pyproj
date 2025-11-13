@@ -1,0 +1,58 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>fe80e449-94b4-4f59-b866-bc75bd643e54</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>UnifiedOps.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>UnifiedOps</Name>
+    <RootNamespace>UnifiedOps</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="panels\builder_panel.py" />
+    <Compile Include="panels\file_tools.py" />
+    <Compile Include="panels\google_tools.py" />
+    <Compile Include="panels\__init__.py" />
+    <Compile Include="ui\link_verifier.py" />
+    <Compile Include="ui\theme.py" />
+    <Compile Include="ui\widgets.py" />
+    <Compile Include="ui\__init__.py" />
+    <Compile Include="UnifiedOps.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="panels\" />
+    <Folder Include="panels\__pycache__\" />
+    <Folder Include="ui\" />
+    <Folder Include="ui\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="panels\__pycache__\builder_panel.cpython-39.pyc" />
+    <Content Include="panels\__pycache__\file_tools.cpython-39.pyc" />
+    <Content Include="panels\__pycache__\google_tools.cpython-39.pyc" />
+    <Content Include="panels\__pycache__\__init__.cpython-39.pyc" />
+    <Content Include="ui\__pycache__\theme.cpython-39.pyc" />
+    <Content Include="ui\__pycache__\widgets.cpython-39.pyc" />
+    <Content Include="ui\__pycache__\__init__.cpython-39.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
